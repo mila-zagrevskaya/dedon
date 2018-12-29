@@ -8,8 +8,8 @@ function initMobileNav() {
 	jQuery('body').mobileNav({
 		hideOnClickOutside: true,
 		menuActiveClass: 'nav-active',
-		menuOpener: '.nav-opener',
-		menuDrop: '.nav-drop'
+		menuOpener: '.menuOpener',
+		menuDrop: '.menuDrop'
 	});
 }
 
