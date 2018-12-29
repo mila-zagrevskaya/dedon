@@ -87,9 +87,6 @@ button.menu-btn:focus {
  	transform: translateY(5px);
 }
 
-
-
-
 /*end navigation */
 .banner {
 	height: 25vw;
@@ -238,12 +235,12 @@ h2 {
   	}
 	.nav {
   		display: none;
-  	  	}
+  	}
 	.nav-item a {
     	padding: 10px 20px 10px 1px;
   	}
 	.menu {
-       	max-height: none;
+    	max-height: none;
   	}
   	button.menu-btn {
 		display: block;
@@ -303,11 +300,12 @@ h2 {
 	}
 	.logo {
 		padding: 10px;
-		max-width: 250px;
+	}
+	.logo img {
+		max-width: 100px;
 	}
 	h2 {
 		text-align: center;
-		
 	}
 	.photo {
 		min-width: 100%;
